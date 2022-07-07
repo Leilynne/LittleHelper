@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ad">Давление</string>
+    <string name="sd">Глюкометрия</string>
+    <string name="move">Активность</string>
+    <string name="weight">Вес</string>
+    <string name="adpressure">Артериальное давление</string>
+    <string name="bloodsd">Глюкометрия</string>
+    <string name="action">Активность</string>
+    <string name="weightlabel">Вес</string>
+    <string name="ad_morning">♥ АД</string>
+    <string name="ad_systol_ev">120</string>
+    <string name="ad_drob_systol">/</string>
+    <string name="ad_diastol_e">80</string>
+    <string name="ad_evening">♥ АД</string>
+    <string name="ad_systol_m">120</string>
+    <string name="ad_eve_drob">/</string>
+    <string name="ad_diastol_morning">80</string>
+    <string name="ad_morning_text">☀ Утро</string>
+    <string name="ad_evening_text">🌙 Вечер</string>
+    <string name="button_add_morning">Добавить</string>
+    <string name="button_ad_evening">Добавить</string>
+    <string name="textview">TextView</string>
+    <string name="ad_text_pressure">Артериальное давление</string>
+    <string name="morning_nums_ad">Утренние показатели</string>
+    <string name="evening_nums_ad">Вечерние показатели</string>
+    <string name="backAd">Назад</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="registration">Зарегистрироваться</string>
+    <string name="autorization">Войти</string>
+    <string name="image_profile">image_profile</string>
+    <string name="todo">TODO</string>
+    <string name="yes">Да, это мой аккаунт</string>
+    <string name="no">Нет, это не мой аккаунт</string>
+    <string name="SdHungry">До еды:</string>
+    <string name="backSd">Назад</string>
+    <string name="SdEating">После еды:</string>
+    <string name="profilenav">Профиль</string>
+    <string name="actionView">Индекс вашей активности</string>
+    <string name="call">call</string>
+</resources>

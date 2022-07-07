@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_ad">
+
+    <fragment
+        android:id="@+id/navigation_ad"
+        android:name="com.example.littlehelper.ui.ad.AdFragment"
+        android:label="@string/adpressure"
+        tools:layout="@layout/fragment_ad" />
+
+    <fragment
+        android:id="@+id/navigation_sd"
+        android:name="com.example.littlehelper.ui.sd.SdFragment"
+        android:label="@string/bloodsd"
+        tools:layout="@layout/fragment_sd" />
+
+    <fragment
+        android:id="@+id/navigation_weight"
+        android:name="com.example.littlehelper.ui.weight.WeightFragment"
+        android:label="@string/weightlabel"
+        tools:layout="@layout/fragment_weight" />
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.example.littlehelper.ui.profile.Fragment_profile"
+        android:label="fragment_profile_fragment"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

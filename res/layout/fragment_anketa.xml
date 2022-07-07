@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:background="#FEDBD0"
+                android:text="Выберите ответы, с которыми вы согласны"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView255"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FBE9E7"
+                android:text="Ваш пол:"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonfemale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Женскиий" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonMale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Мужской" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView278"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FBE9E7"
+                android:text="Ваш возраст:"
+                android:textColor="#000000" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonAge29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="До 29 лет" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonAge39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="От 30 до 40 лет" />
+                <RadioButton
+                    android:id="@+id/radioButtonAge49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="От 41 до 50 лет" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonAge59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="От 51 до 60 лет" />
+                <RadioButton
+                    android:id="@+id/radioButtonAge69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="От 61 до 70 лет" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonAge79"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Старше 70 лет" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FBE9E7"
+                android:text="Есть ли среди ваших близких родственников:"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/checkBoxQuest1Ad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Больные артериальной гипертензией" />
+
+            <CheckBox
+                android:id="@+id/checkBoxQuest1IM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Перенесшие инфаркт миокарда" />
+
+            <CheckBox
+                android:id="@+id/checkBoxQuest1Insult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Перенесшие инсульт" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FBE9E7"
+                android:text="Бывают ли у вас:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBozQuest2HeadAche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Частые головные боли" />
+
+            <CheckBox
+                android:id="@+id/checkBoxQuest2Dizzines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Головокружения" />
+
+            <CheckBox
+                android:id="@+id/checkBoxQuest2ChestAche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Боли в грудной клетке" />
+
+            <CheckBox
+                android:id="@+id/checkBoxQest2Apnea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Одышка" />
+
+            <CheckBox
+                android:id="@+id/checkBoxQuest2Tachicardia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Сердцебиение" />
+
+            <CheckBox
+                android:id="@+id/checkBoxQuest2LegAche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Отеки на ногах" />
+
+            <CheckBox
+                android:id="@+id/checkBoxQyest2Ad140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Подъем артериального давления свыше 140/90 мм.рт.ст" />
+
+            <CheckBox
+                android:id="@+id/checkBoxQuest2StopWallking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Потребность в остановках при ходьбе" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FBE9E7"
+                android:text="Курите ли вы"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonSmokeYes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Да" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonSmokeNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Нет" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FBE9E7"
+                android:text="Употребляете ли вы алкоголь"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonDrinkNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Не употребляю" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonDrinkRarely"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Не чаще 2 раз в месяц" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonDrinkOften"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Чаще 1 раза в неделю" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FBE9E7"
+                android:text="Как часто вы занимаетесь спортом или длительными пешими прогулками"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonSportNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Не занимаетесь" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonSportRarely"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Не более 1 раза в месяц" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonSportNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 раз в неделю" />
+                <RadioButton
+                    android:id="@+id/radioButtonSportOften"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2-3 раза в неделю" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FBE9E7"
+                android:text="Придерживаетесь ли вы правильного питания ежедневно (не менее 300
+грамм овощей и фруктов, злаки, орехи, рыба, постное мясо, кисломолочные продукты, яйца 1-3 раза в неделю, ограничение соли, жиров)"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonEatNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Не придерживатесь ограничений" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonEatRarely"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Считаете, что ваше употребление некоторых продуктов избыточно" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonEatOften"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Умеренно употребляете мясо, жиры, мучное и сладкое"/>
+                <RadioButton
+                    android:id="@+id/radioButtonEatNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Строго придерживаетесь правильного питания" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FBE9E7"
+                android:text="Подверженны ли вы стрессам"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxStressWorry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Бывают периоды немотивированного беспокойства" />
+
+            <CheckBox
+                android:id="@+id/checkBoxStressUnsleep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Беспокоит бессоница" />
+
+            <CheckBox
+                android:id="@+id/checkBoxStressLoudlySounds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Раздражают резкие звуковые и световые сигналы" />
+
+            <CheckBox
+                android:id="@+id/checkBoxStresUnhappyToHappy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Свойственны перепады настроения" />
+
+            <CheckBox
+                android:id="@+id/checkBoxStressUnworked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Трудно сосредоточиться на работе" />
+
+            <CheckBox
+                android:id="@+id/checkBoxStressApathy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Физическая слабость, апатия" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FBE9E7"
+                android:text="Знаете ли вы свой уровень холестерина и глюкозы в крови"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonHolesterineNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Нет" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonHolesterineNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Да, показатели в норме" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonHolesterineReallyBad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Да, показатели повышены, препараты не принимаю" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonHolesterineYesControle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Да, я принимаю препараты" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_riskResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:onClick="onClickResult"
+                android:text="Получить результат" />
+
+            <TextView
+                android:id="@+id/textViewResultRisk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Оценка вашего риска"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/textView412"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

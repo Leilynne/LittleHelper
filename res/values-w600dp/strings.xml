@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profilenav">Профиль</string>
+    <string name="actionView">Индекс вашей активности</string>
+    <string name="call">call</string>
+</resources>
