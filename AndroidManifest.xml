@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.littlehelper">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="Little Helper"
+        android:roundIcon="@drawable/ic_launcher_background"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LittleHelper">
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:label="Little Helper">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ad.DiaryAd" />
+        <activity android:name=".ui.sd.DiarySd" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.weight.DiaryWeight" />
+        <activity android:name=".ui.move.DiaryMove" />
+        <activity android:name=".ui.profile.DiaryLs"/>
+        <activity android:name=".ui.profile.Risk"/>
+        <activity android:name=".ui.move.Diagnostik"/>
+        <activity android:name=".Head"/>
+        <activity android:name=".Infarkt"/>
+        <activity android:name=".Insult"/>
+        <receiver android:name=".AlertReceiver"/>
+
+    </application>
+
+</manifest>
